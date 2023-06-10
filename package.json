@@ -1,0 +1,39 @@
+{
+  "name": "ajanuw-list-more-data",
+  "version": "1.0.0",
+  "description": "list-more-data",
+  "private": false,
+  "main": "./dist/umd/ajanuw-list-more-data.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "build:umd": "webpack",
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "build": "npm run build:umd && npm run build:esm",
+    "test": "jest"
+  },
+  "keywords": [
+    "ajanuw-list-more-data"
+  ],
+  "author": "Ajanuw",
+  "license": "MIT",
+  "homepage": "https://github.com/januwA/ajanuw-list-more-data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/januwA/ajanuw-list-more-data.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.11",
+    "@types/webpack": "^5.28.0",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+  }
+}
